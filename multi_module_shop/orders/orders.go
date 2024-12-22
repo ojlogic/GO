@@ -1,8 +1,7 @@
 package orders
 
-import "fmt"
-
-// ProcessOrder обрабатывает заказ
-func ProcessOrder(orderID int) {
-    fmt.Printf("Processing order with ID: %d\n", orderID)
+type Order struct {
+    ID       int
+    Product  string
+    Quantity int
 }
