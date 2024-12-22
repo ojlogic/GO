@@ -2,7 +2,7 @@ package main
 
 import (
     "fmt"
-    "github.com/ojlogic/GO/multic_module_shop/orders"
+    "github.com/ojlogic/GO/multi_module_shop/orders"
     "github.com/ojlogic/GO/multi_module_shop/users"
 )
 
